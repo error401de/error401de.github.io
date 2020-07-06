@@ -2,19 +2,32 @@
 	<head>
 		<title>unauthorized</title>
 		<style>
+			a {
+			  color: black;
+			}
 			.container { 
-			  height: 100%;
-			  position: relative;
-			  font-family: Arial, Helvetica, sans-serif;
+				height: 100%;
+				position: relative;
+				font-family: Arial, Helvetica, sans-serif;
+				display: flex;
+				font-size: 1.5em;
 			}
 
 			.center {
-			  margin: 0;
-			  position: absolute;
-			  top: 50%;
-			  left: 50%;
-			  -ms-transform: translate(-50%, -50%);
-			  transform: translate(-50%, -50%);
+				margin: 0;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				-ms-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+			}
+
+			.footer {
+				position: absolute;
+				bottom: 3px;
+				right: 3px;
+				font-family: Arial, Helvetica, sans-serif;
+				font-style: italic;
 			}
 		</style>
 	</head>
@@ -23,6 +36,9 @@
 		  <div class="center">
 		    <p>unauthorized.</p>
 		  </div>
+		</div>
+		<div class="footer">
+			<img src="github.png" width="15px" height="15px"/> Current projects: <a href="https://github.com/error401de/csgo-mapvote">csgo-mapvote</a>
 		</div>
 	</body>
 </html>
